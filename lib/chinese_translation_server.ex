@@ -1,0 +1,2 @@
+defmodule ChineseTranslationServer do
+end
