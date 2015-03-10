@@ -1,0 +1,7 @@
+%{"chinese_translation": {:hex, :chinese_translation, "0.1.0"},
+  "hackney": {:hex, :hackney, "1.0.6"},
+  "httpoison": {:hex, :httpoison, "0.6.2"},
+  "idna": {:hex, :idna, "1.0.2"},
+  "pipe": {:git, "git://github.com/batate/elixir-pipes.git", "fbbe0997f761b02fe5b6e809b5ee4e3fba9c819d", []},
+  "poolboy": {:hex, :poolboy, "1.4.2"},
+  "ssl_verify_hostname": {:hex, :ssl_verify_hostname, "1.0.1"}}

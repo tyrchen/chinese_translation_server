@@ -12,7 +12,10 @@ defmodule ChineseTranslationServer.Mixfile do
   #
   # Type `mix help compile.app` for more information
   def application do
-    [applications: [:logger]]
+    [
+      applications: [:logger],
+      mod: {ChineseTranslationServer, []}
+    ]
   end
 
   # Dependencies can be Hex packages:
@@ -25,6 +28,10 @@ defmodule ChineseTranslationServer.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    []
+    [
+      {:chinese_translation, "~> 0.1"},
+      {:poolboy, "~> 1.4"},
+      {:pipe, github: "batate/elixir-pipes"},
+    ]
   end
 end
